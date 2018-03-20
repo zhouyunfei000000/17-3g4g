@@ -1,0 +1,167 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	height: 100%;
+}
+a{
+	text-decoration: none;
+
+}
+.a1{
+        margin: 0 auto;     	   
+		text-align: center;
+}
+
+.top{
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	top: 0;
+	background: rgba(0,0,0,0.6);
+}
+.logo{
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.header-text{
+    position: fixed;
+    line-height: 60px;
+    left: 200px;
+}
+.header-text ul li{
+	display: inline-block;
+	margin: 20px;
+}
+.header-text ul li a{
+	color: white;
+}
+.header-text ul li a:hover{
+	color: red;
+}
+.header-right{
+	position: fixed;
+	line-height: 100px;
+	right: 100px;
+	top: -2px;
+}
+.header-right a{
+  display: inline-block;
+	margin-top: 30px;
+	color: gold;
+	width: 100px;
+	border: solid 1px gold; 
+	border-radius:20px;
+	line-height: 40px;	
+}
+.header-right a{
+	display: inline-block;
+	vertical-align: top;
+}
+.header-right a:first-of-type:hover{
+	background-color: gold;
+}
+.header-right a:first-of-type:hover{
+	color: white;
+}
+.header-right a:last-of-type:hover{
+	background-color: gold;
+}
+.header-right a:last-of-type:hover{
+color: white;
+}
+div img{
+	vertical-align: bottom;
+}
+
+.foot{
+	display: inline-block;
+}
+.foot ul a{
+	line-height: 60px;
+	width: 100%;
+}
+.foot{
+	width: 100%;
+	height: 400px;
+	background: rgba(0,0,0,0.9);
+}
+.foot ul li{
+	display: inline-block;
+	line-height: 50px;
+	padding-top:70px;
+	margin-left: 20px;
+}
+
+div ul li span:first-of-type{
+	display: block;
+	height: 80px;
+	width: 100px;
+background: url(../img/sprites_footer.png) no-repeat;
+	
+}	
+div ul li:nth-of-type(1) span:first-of-type{
+	background-position:0px 0px ;
+}
+div ul li:nth-of-type(1) span:first-of-type:hover{
+	background-position: -100px 0px;
+}
+div ul li:nth-of-type(2) span:first-of-type{
+	background-position:0px -100px ;
+}
+div ul li:nth-of-type(2) span:first-of-type:hover{
+	background-position: -100px -100px;
+}
+div ul li:nth-of-type(3) span:first-of-type{
+	background-position:0px -200px ;
+}
+div ul li:nth-of-type(3) span:first-of-type:hover{
+	background-position: -100px -200px;
+}
+div ul li:nth-of-type(4) span:first-of-type{
+	background-position:0px -300px ;
+}
+div ul li:nth-of-type(4) span:first-of-type:hover{
+	background-position: -100px -300px;
+}
+div ul li:nth-of-type(5) span:first-of-type{
+	background-position:0px -400px ;
+}
+div ul li:nth-of-type(5) span:first-of-type:hover{
+	background-position: -100px -400px;
+}
+div ul li:nth-of-type(6) span:first-of-type{
+	background-position:0px -500px ;
+}
+div ul li:nth-of-type(6) span:first-of-type:hover{
+	background-position: -100px -500px;
+}
+div ul li:nth-of-type(7) span:first-of-type{
+	background-position:0px -600px ;
+}
+div ul li:nth-of-type(7) span:first-of-type:hover{
+	background-position: -100px -600px;
+}
+.foot ul li a{
+	color: darkgray;
+}
+p:first-of-type{
+	margin-top: 100px;
+	color: white;
+}
+p:last-of-type{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
